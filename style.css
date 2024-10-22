@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: let;
+    src: url(EduAUVICWANTGuides-Bold.ttf);
+}
+body{
+  
+    background-image: url(pexels-junior-teixeira-1064069-2047905.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "let" , 'Courier New', Courier, monospace;
+}
+main{
+    background-color: transparent;
+    width: 70%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+main .profile-image{
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+main img{
+    width: 200px;
+}
+main .detaisl-card{
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    position: relative;
+    top: -20px;
+    padding: 80px , 40px , 20px , 40px;
+    border-radius: 20px;
+    border: 2px solid rgba(225, 225, 225, 0.2);
+    box-shadow: 0 0 20px rgb(5, 16, 168);
+    backdrop-filter: blur(7px);
+}
+main h1{
+    font-size: 28px;
+   
+    
+    
+}
+main p{
+    font-size: 18px;
+font-family: "let";
+}
+main .projec{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+}
+main .projec a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border: 1px solid rgba(225, 225, 225, 0.2);
+    padding: 5px 0px;
+    border-radius: 20px;
+    transition: all 200ms ease-in-out;
+}
+main .projec a:hover {
+   transform: scale(1.1);
+}
+main .social-links a{
+    text-decoration: none;
+    color: rgb(255, 255, 255 , 0.7);
+    font-size: 28px;
+    margin: 0px 10px;
+    transition: all 0.3ms ease-in;
+}
+main .social-links a:hover{
+color: white;
+filter: drop-shadow(0 0 10px rgba(225 , 225 , 225));
+}
+
+@media screen and (max-width:500px) {
+    main{ width: 95px;
+    
+    }
+   
+}
